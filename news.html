@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Creative Blogs</title>
+    <title>Creative Blogs- About</title>
     <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/news.css">
 </head>
 
 <body>
@@ -22,8 +22,8 @@
             </div>
             <div class="nav-right">
                 <ul>
-                    <li><a href="/" class="active">Blog</a></li>
-                    <li><a href="news.html">News</a></li>
+                    <li><a href="index.html">Blog</a></li>
+                    <li><a href="/" class="active">News</a></li>
                     <li><a href="jobs.html">Work with Us</a></li>
                     <li><a href="about.html">About</a></li>
                 </ul>
@@ -32,17 +32,14 @@
     </div>
     <hr style="width: 80vw;">
     <div class="container">
-        <div class="banner" id="banner">
-            <h1>Welcome to Creative Blogs</h1>
-            <a href="#filterbar">Get Started</a>
+        <div class="eventsection">
+            <h1>Upcoming events</h1>
+            <div class="events" id="events"></div>
         </div>
-        <div class="filterbar" id="filterbar">
-            <button class="fbtn active" id="recent">recent</button>
-            <button class="fbtn" id="tech">tech</button>
-            <button class="fbtn" id="modern">modern</button>
-            <button class="fbtn" id="nature">nature</button>
+        <div class="newssection">
+            <h1>News</h1>
+            <div class="news" id="news"></div>
         </div>
-        <div class="blogs" id="blogs"></div>
     </div>
     <hr>
     <div class="footer">
@@ -78,7 +75,7 @@
         </footer>
         <p class="copyright">&copy; 2020 BlogSite - All rights reserved.</p>
     </div>
-    <script src="js/blogs.js"></script>
+    <script src="js/news.js"></script>
 </body>
 
 </html>
